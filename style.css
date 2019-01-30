@@ -67,8 +67,14 @@ main{
     }
 }
 
+@media only screen and (min-width: 800px){
+    .wrapper {
+        max-width: 800px;
+    }
+}
+
 .box {
-    background-color: #444;
+    background-color: blue;
     color: #fff;
     border-radius: 5px;
     padding: 10px;
