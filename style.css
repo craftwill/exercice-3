@@ -31,7 +31,7 @@ main{
 }
 
 .header {
-    grid-area: header;
+    grid-area: header/100%;
 }
 
 .footer {
