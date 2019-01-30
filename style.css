@@ -22,6 +22,10 @@ main{
     grid-area: sidebar2;
 }
 
+.sidebar3 {
+    grid-area: sidebar3/100%;
+}
+
 .content {
     grid-area: content;
 }
