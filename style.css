@@ -2,6 +2,11 @@ body {
     margin: 40px;
 }
 
+main{
+    margin: 0 auto;
+    width: 100%;
+}
+
 .sidebar {
     grid-area: sidebar;
 }
@@ -23,6 +28,7 @@ body {
 }
 
 .wrapper {
+    margin: 0 auto;
     background-color: #fff;
     color: #444;
 }
@@ -71,10 +77,11 @@ body {
 
 .header,
 .footer {
-    background-color: #999;
+    color: black;
+    background-color: aquamarine;
 }
 
 .sidebar2 {
-    background-color: #ccc;
+    background-color: cadetblue;
 color: #444;
 }
