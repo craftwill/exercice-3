@@ -1,10 +1,12 @@
 body {
     margin: 40px;
+    background-color: antiquewhite;
 }
 
 main{
     margin: 0 auto;
     width: 100%;
+    background-color: antiquewhite;
 }
 
 .sidebar {
@@ -29,8 +31,8 @@ main{
 
 .wrapper {
     margin: 0 auto;
-    background-color: #fff;
     color: #444;
+    background-color: antiquewhite;
 }
 
 .wrapper {
