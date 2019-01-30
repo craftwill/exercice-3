@@ -1,12 +1,12 @@
 body {
     margin: 40px;
-    background-color: antiquewhite;
+    background-color: red;
 }
 
 main{
     margin: 0 auto;
     width: 100%;
-    background-color: antiquewhite;
+    background-color: red;
 }
 
 main{
@@ -41,7 +41,7 @@ main{
 .wrapper {
     margin: 0 auto;
     color: #444;
-    background-color: antiquewhite;
+    background-color: rebeccapurple;
 }
 
 .wrapper {
@@ -85,7 +85,7 @@ main{
 }
 
 .box {
-    background-color: blue;
+    background-color: yellowgreen;
     color: #fff;
     border-radius: 5px;
     padding: 10px;
@@ -95,10 +95,10 @@ main{
 .header,
 .footer {
     color: black;
-    background-color: aquamarine;
+    background-color: yellow;
 }
 
 .sidebar2 {
-    background-color: cadetblue;
+    background-color: yellow;
 color: #444;
 }
