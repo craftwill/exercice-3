@@ -96,6 +96,7 @@ main{
 .footer {
     color: black;
     background-color: yellow;
+    height: 100px;
 }
 
 .sidebar2 {
