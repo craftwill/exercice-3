@@ -9,25 +9,30 @@ main{
     background-color: white;
 }
 
-main{
-    margin: 0 auto;
-    width: 100%;
-}
-
 .sidebar {
     grid-area: sidebar;
+    font-size: 22px;
 }
 
 .sidebar2 {
     grid-area: sidebar2;
+    font-size: 22px;
 }
 
 .content {
     grid-area: content;
+    font-size: 18px;
+    min-height: 400px;
 }
 
-.header {
+.header{
     grid-area: header;
+    font: {
+        size: 43px;
+    }
+    text: {
+        align:center;
+    }
 }
 
 .footer {
@@ -85,7 +90,6 @@ main{
     color: #fff;
     border-radius: 5px;
     padding: 10px;
-    font-size: 150%; 
 }
 
 .header,
