@@ -1,12 +1,12 @@
 body {
     margin: 40px;
-    background-color: red;
+    background-color: white;
 }
 
 main{
     margin: 0 auto;
     width: 100%;
-    background-color: red;
+    background-color: white;
 }
 
 main{
@@ -22,16 +22,12 @@ main{
     grid-area: sidebar2;
 }
 
-.sidebar3 {
-    grid-area: sidebar3/100%;
-}
-
 .content {
     grid-area: content;
 }
 
 .header {
-    grid-area: header/100%;
+    grid-area: header;
 }
 
 .footer {
@@ -41,7 +37,7 @@ main{
 .wrapper {
     margin: 0 auto;
     color: #444;
-    background-color: rebeccapurple;
+    background-color: beige;
 }
 
 .wrapper {
@@ -95,7 +91,7 @@ main{
 .header,
 .footer {
     color: black;
-    background-color: yellow;
+    background-color: orange;
     height: 100px;
 }
 
