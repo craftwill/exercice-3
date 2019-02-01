@@ -1,12 +1,12 @@
 body {
   margin: 40px;
-  background-color: white;
+  background-color: antiquewhite;
 }
 
 main {
   margin: 0 auto;
   width: 100%;
-  background-color: white;
+  background-color: antiquewhite;
 }
 
 .sidebar {
@@ -55,21 +55,14 @@ main {
   display: -ms-grid;
   display: grid;
   grid-gap: 1em;
-      grid-template-areas: "header"
- "sidebar"
- "content"
- "sidebar2"
- "footer";
+      grid-template-areas: "header" "sidebar" "content" "sidebar2" "footer";
 }
 
 @media only screen and (min-width: 500px) {
   .wrapper {
     -ms-grid-columns: 20% auto;
         grid-template-columns: 20% auto;
-        grid-template-areas: "header   header"
- "sidebar  content"
- "sidebar2 sidebar2"
- "footer   footer";
+        grid-template-areas: "header   header" "sidebar  content" "sidebar2 sidebar2" "footer   footer";
   }
 }
 
@@ -78,9 +71,7 @@ main {
     grid-gap: 20px;
     -ms-grid-columns: 120px auto 120px;
         grid-template-columns: 120px auto 120px;
-        grid-template-areas: "header  header  header"
- "sidebar content sidebar2"
- "footer  footer  footer";
+        grid-template-areas: "header  header  header" "sidebar content sidebar2" "footer  footer  footer";
     max-width: 600px;
   }
 }
@@ -92,8 +83,8 @@ main {
 }
 
 .box {
-  background-color: yellowgreen;
-  color: #fff;
+  background-color: aliceblue;
+  color: black;
   border-radius: 5px;
   padding: 10px;
 }
@@ -101,12 +92,12 @@ main {
 .header,
 .footer {
   color: black;
-  background-color: orange;
+  background-color: darkgrey;
   height: 100px;
 }
 
 .sidebar2 {
-  background-color: yellow;
+  background-color: floralwhite;
   color: #444;
 }
 /*# sourceMappingURL=style.css.map */
